@@ -1,0 +1,95 @@
+nav{
+    padding: 23px 0;
+    padding-left: 100px;
+    padding-right: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    .hamburger-menu{
+        display: none;
+    }
+    div{
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        ul {
+            display: flex;
+            gap: 40px;
+            li{
+                list-style-type: none;
+                color: #E7E8E9;
+                font-family: 'Moderat Trial', sans-serif;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 22px;
+            }
+            li:active{
+                font-weight: 700;
+            }
+        }
+        button{
+            background-color: transparent;
+            color: #E7E8E9;
+            border: 2px solid #E7E8E9;
+            padding: 16px;
+        }
+    }
+    .small-screen{
+        background-color: #ffffff;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 60%;
+        position: fixed;
+        color: #000000;
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+        img{
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        ul {
+            display: flex;
+            gap: 40px;
+            flex-direction: column;
+            padding-top: 50px;
+            li{
+                list-style-type: none;
+                font-family: 'Moderat Trial', sans-serif;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 22px;
+            }
+            li:active{
+                font-weight: 700;
+            }
+        }
+        button{
+            background-color: #000000;
+            color: #ffffff;
+            border: 2px solid #E7E8E9;
+            padding: 16px 0;
+            border-radius: 7px;
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+
+}
+
+@media(max-width:1000px){
+    nav{
+        padding: 23px 50px;
+    }
+}
+@media (max-width: 840px) {
+    nav div{
+        display: none;
+    }
+    nav .hamburger-menu{
+        display: block;
+    }
+}
