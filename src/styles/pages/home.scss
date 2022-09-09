@@ -232,3 +232,8 @@
         max-width: 90%;
     }
 }
+@media (min-width: 1000px) {
+    .top-section .text h1{
+        white-space: nowrap;
+    }
+}
