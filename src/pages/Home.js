@@ -40,7 +40,7 @@ const Home = () => {
             <h3>TIMELINE</h3>
             <p>Key dates in the life of the Queen, from her birth in April 1926 to her death in September 2022</p>
           </div>
-          <h4>See All <span><img src={require('../assets/read-more-small.png')} alt=""/></span></h4>
+          <h4>See All <img src={require('../assets/read-more-small.png')} alt=""/></h4>
         </div>
         <div className="wrapper">
           <TimelineCard 
