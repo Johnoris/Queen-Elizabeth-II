@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="container">
       <Nav/> 
-       <div className='top-section'>
+       <div className='top-section' id="home">
         <div className='text'>
           <img src={require('../assets/big-logo.png')} alt="" />
           <h1>Queen Elizabeth II</h1>
@@ -20,7 +20,7 @@ const Home = () => {
         </div>
       </div>
       <div className='biography'>
-        <h3>BIOGRAPHY</h3>
+        <h3 id='biography'>BIOGRAPHY</h3>
         <p>A short account of Queen Elizabeth II’s Life</p>
         <div className='biography-description'>
           <img className='img' src={require('../assets/birth.png')} alt=""/>
@@ -34,7 +34,7 @@ const Home = () => {
           <img className='img' src={require('../assets/old-queen.png')} alt=""/>
         </div>
       </div>
-      <div className='timeline'>
+      <div className='timeline' id='timeline'>
         <div className='header'>
           <div>        
             <h3>TIMELINE</h3>
@@ -53,7 +53,7 @@ const Home = () => {
           year="1930s"
           text="In August 1930, Elizabeth’s sister, Princess Margaret Rose, is born. On the 20th of January 1936, George V dies. Edward VIII becomes king.  On the 10th of December 1936, Edward VIII abdicates so that he can marry the American divorcee Wallis Simpson.</br>In 1937, Elizabeth becomes a Girl Guide at the age of 11."
           />
-          <TimelineCard 
+          <TimelineCard id='gallery'
           src={require('../assets/1940.png')}
           year="1940s"
           text="On the 13th of October, 1940, Elizabeth makes her first broadcast to the nation. On the 21st of April 1942, on her 16th birthday, Elizabeth carries out her first public engagement when she inspects the Grenadier Guards, of which she had been appointed colonel-in-chief. In 1944, she receives her first corgi, Susan, as an 18th birthday present."
@@ -69,7 +69,7 @@ export default Home;
 
 const TimelineCard = (props) => {
   return(
-    <div className='timeline-card'>
+    <div className='timeline-card' id={props.id}>
       <span><img className='timeline-img' src={props.src} alt=""/></span>
       <div className='section'>
         <h4>{props.year}</h4>

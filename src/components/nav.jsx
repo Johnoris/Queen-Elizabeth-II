@@ -11,22 +11,22 @@ const Nav = () => {
                 <section className='small-screen'>
                     <span><img onClick={()=>setMenu(false)} src={require('../assets/close.png')} alt=""/></span>
                     <ul>
-                        <li>Home</li>
-                        <li>Biography</li>
-                        <li>Timeline</li>
-                        <li>Gallery</li>
-                        <li>Tributes</li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#biography">Biography</a></li>
+                        <li><a href="#timeline">Timeline</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#tributes">Tributes</a></li>
                     </ul>
                     <button>Write Tributes</button>
                 </section>
             }
             <div>
                  <ul>
-                    <li>Home</li>
-                    <li>Biography</li>
-                    <li>Timeline</li>
-                    <li>Gallery</li>
-                    <li>Tributes</li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#biography">Biography</a></li>
+                    <li><a href="#timeline">Timeline</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#tributes">Tributes</a></li>
                 </ul>
                 <button>Write Tributes</button> 
             </div>
