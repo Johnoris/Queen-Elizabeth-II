@@ -1,5 +1,6 @@
 footer{
     background-color: #000000;
+    background-image: url(../../assets/bg.png);
     color: #E7E8E9;
     padding-top: 80px;
     .footer-section-1{
@@ -12,14 +13,14 @@ footer{
             align-items: center;
             gap: 4px;
             h4{
-                font-family: 'Moderat Trial',sans-serif;
+                font-family: 'Moderat Trial';
                 font-size: 20px;
                 font-weight: 700;
                 line-height: 30px;
             }
         }
         h3{
-            font-family: 'Cabinet Grotesk', sans-serif;
+            font-family: 'Cabinet Grotesk';
             font-size: 40px;
             font-weight: 700;
             line-height: 50px;
@@ -45,7 +46,7 @@ footer{
         padding-top: 24px;
         padding-bottom: 40px;
         h2{
-            font-family:'Cabinet Grotesk', sans-serif;
+            font-family:'Cabinet Grotesk';
             font-size: 26px;
             font-weight: 700;
             line-height: 38px;
@@ -53,7 +54,7 @@ footer{
             margin-bottom: 20px;         
         }
         p{
-            font-family: 'Moderat Trial', sans-serif;
+            font-family: 'Moderat Trial';
             font-size: 20px;
             font-style: italic;
             font-weight: 401;
@@ -70,14 +71,14 @@ footer{
         gap: 24px;
         h4{
             max-width: 340px;
-            font-family: 'Moderat Trial', sans-serif;
+            font-family: 'Moderat Trial';
             font-size: 18px;
             font-weight: 400;
             line-height: 29px;
         }
     }
     h3{
-        font-family: 'Cabinet Grotesk',sans-serif;
+        font-family: 'Cabinet Grotesk';
         font-size: 24px;
         font-weight: 700;
         line-height: 30px;

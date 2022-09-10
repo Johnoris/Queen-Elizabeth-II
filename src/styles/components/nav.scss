@@ -6,6 +6,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     background-color: #000000;
+    background-image: url(../../assets/bg.png);
     border-bottom: 2px solid #E7E8E9;
     .hamburger-menu{
         display: none;
@@ -20,7 +21,7 @@ nav{
             li{
                 list-style-type: none;
                 color: #E7E8E9;
-                font-family: 'Moderat Trial', sans-serif;
+                font-family: 'Moderat Trial';
                 font-size: 18px;
                 font-weight: 500;
                 line-height: 22px;
@@ -59,7 +60,7 @@ nav{
             padding-top: 50px;
             li{
                 list-style-type: none;
-                font-family: 'Moderat Trial', sans-serif;
+                font-family: 'Moderat Trial';
                 font-size: 18px;
                 font-weight: 500;
                 line-height: 22px;
